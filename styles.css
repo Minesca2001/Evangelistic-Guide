@@ -1,10 +1,10 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+body {
     display: flex;
     justify-content: center;
     text-align: center;
-}
-body {
     align-items: center;
     height: 100vh;
     margin: 0;
