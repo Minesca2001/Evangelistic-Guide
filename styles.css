@@ -1,14 +1,16 @@
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-    display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-image: url("Background_10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
 }
 
 .container {
@@ -28,16 +30,10 @@ h1, h5 {
 
 input, button {
     width: 50%;
-    padding: 10px;
-    margin: 10px 0;
     border: 1px solid #ccc;
-    border-radius: 50px;
-    text-align: center;
     padding: 10px 20px;
-    background-color: #00ff37;
     color: white;
     cursor: pointer;
-    width: 25%;
     margin: 10px auto; /* Centrado automático */
     font-size: 16px;
     border-radius: 100px;
