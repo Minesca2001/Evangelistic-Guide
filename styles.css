@@ -1,17 +1,14 @@
-* {
-	font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-	justify-content: center;
-	text-align: center;
-	border-radius: 100px;
-}
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-image: url("Background_10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .container {
@@ -20,7 +17,8 @@ body {
     width: 500px;
     max-width: 600px;
     margin: 30px auto;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 h1, h5 {
@@ -31,14 +29,18 @@ h1, h5 {
 input, button {
     width: 50%;
     padding: 10px;
+    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 50px;
     text-align: center;
     padding: 10px 20px;
     color: white;
     cursor: pointer;
+    display: block;
+    width: 25%;
     margin: 10px auto; /* Centrado automático */
     font-size: 16px;
+    border-radius: 100px;
 }
 
 button:hover {
@@ -78,7 +80,7 @@ section.active {
             border: none;
             padding: 10px;
             font-size: 16px;
-            border-radius: 100px;
+            border-radius: 50px;
             cursor: pointer;
 }
 /* Menú lateral */
