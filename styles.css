@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("../Tipos de Calculadoras/Images/Background_10.jpg");
+    background-image: url("Background_10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -26,21 +26,17 @@ h1, h5 {
     color: #333;
 }
 
-input[type="text"] {
+input, button {
     width: 50%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 50px;
     text-align: center;
-}
-
-button {
     padding: 10px 20px;
     background-color: #00ff37;
     color: white;
     cursor: pointer;
-    display: block;
     width: 25%;
     margin: 10px auto; /* Centrado automático */
     font-size: 16px;
