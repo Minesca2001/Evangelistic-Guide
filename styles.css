@@ -38,6 +38,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 24px;
     font-size: 16px;
+    display: block;
     color: #333;
     background: #f9f9f9;
     box-sizing: border-box;
@@ -79,7 +80,7 @@ section {
 }
 section.active,
 #Formulario {
-    display: block;
+    display: flex
 }
 
 /* Contenedor de preguntas */
